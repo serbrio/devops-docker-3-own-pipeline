@@ -9,6 +9,5 @@ services:
   
   node-app:
     image: serbrio/devops-docker-3-own-pipeline
-    build: ./
     ports:
       - 8080:8080
